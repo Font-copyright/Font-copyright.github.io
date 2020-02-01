@@ -4695,7 +4695,7 @@ function(e) {
                 for (var t, n = 1, r = arguments.length; n < r; n++) { t = arguments[n];
                     for (var i in t) Object.prototype.hasOwnProperty.call(t, i) && (e[i] = t[i]) }
                 return e }, _.apply(this, arguments) });
-    Object(f.isMobile)() && (window.location.href = "activity/font-wx.html");
+    Object(f.isMobile)() && (window.location.href = "font-wx.html");
     var T = Object(u.lazy)(function() {
             return n.e(3).then(n.bind(null, 197)) }),
         E = function(e) {
