@@ -645,7 +645,8 @@ function(e) {
         var t = e.show,
             n = void 0 === t || t,
             r = n ? "" : "hide";
-        return c.a.createElement("div", { className: "notice " + r }, c.a.createElement("div", null, "", c.a.createElement("span", { className: "notice__interval" }), c.a.createElement(d, { style: { marginLeft: 0 } }, ""))) }
+        return c.a.createElement("div", { className: "notice " + r }, c.a.createElement("div", null, "", c.a.createElement("span", { className: "" }), c.a.createElement(d, { style: { marginLeft: 0 } }, ""))) }
+        // return c.a.createElement("div", { className: "notice " + r }, c.a.createElement("div", null, "\u6ce8\uff1a\u672c\u9875\u7ed3\u679c\u4ec5\u4f9b\u53c2\u8003", c.a.createElement("span", { className: "notice__interval" }), c.a.createElement(d, { style: { marginLeft: 0 } }, "\u7ea0\u9519\u4e0e\u53cd\u9988"))) }
 
     function i(e) {
         return c.a.createElement("span", { className: "list__item_name left" }, e.children) }
@@ -4638,7 +4639,8 @@ function(e) {
                     return i(n) }, key: e }, e) }))) }
 
     function o() {
-        return c.a.createElement("div", { className: "footer" }, "\u542c\u8bf4\uff0c\u5b89\u88c5\u4e86\u3010 360\u5b89\u5168\u536b\u58eb \u3011\u7684\u8bbe\u8ba1\u5e08\uff0c\u90fd\u80fd\u4e00\u7a3f\u8fc7\u54e6\u30fe(\u2267\u25bd\u2266*)o", c.a.createElement("a", { className: "footer__download", href: "https://dl.360safe.com/inst.exe", target: "_self" }, "\u88c5\u4e00\u4e2a\u8bd5\u8bd5\uff01")) }
+        return c.a.createElement("div", { className: "footer" }, "\u53bb\u3010\u5b57\u4f53\u4ed3\u5e93\u3011\u67e5\u770b\u66f4\u591a\u514d\u8d39\u53ef\u5546\u7528\u5b57\u4f53)", c.a.createElement("a", { className: "footer__download", href: "https://ziticangku.com", target: "_self" }, "\u67e5\u770b\u5b57\u4f53\u4ed3\u5e93")) }
+        // return c.a.createElement("div", { className: "footer" }, "\u542c\u8bf4\uff0c\u5b89\u88c5\u4e86\u3010 360\u5b89\u5168\u536b\u58eb \u3011\u7684\u8bbe\u8ba1\u5e08\uff0c\u90fd\u80fd\u4e00\u7a3f\u8fc7\u54e6\u30fe(\u2267\u25bd\u2266*)o", c.a.createElement("a", { className: "footer__download", href: "https://ziticangku.com", target: "_self" }, "\u88c5\u4e00\u4e2a\u8bd5\u8bd5\uff01")) }
 
     function a(e) {
         var t = e.loading,
