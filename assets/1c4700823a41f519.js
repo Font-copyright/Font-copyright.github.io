@@ -641,11 +641,11 @@ function(e) {
                 for (var f = 0; f < l.length; f++) a.call(n, l[f]) && (u[l[f]] = n[l[f]]) } }
         return u } }, function(e, t, n) { "use strict";
 
-    function r(e) {
-        var t = e.show,
-            n = void 0 === t || t,
-            r = n ? "" : "hide";
-        return c.a.createElement("div", { className: "notice " + r }, c.a.createElement("div", null, "\u6ce8\uff1a\u672c\u9875\u7ed3\u679c\u4ec5\u4f9b\u53c2\u8003", c.a.createElement("span", { className: "notice__interval" }), c.a.createElement(d, { style: { marginLeft: 0 } }, "\u7ea0\u9519\u4e0e\u53cd\u9988"))) }
+    // function r(e) {
+    //     var t = e.show,
+    //         n = void 0 === t || t,
+    //         r = n ? "" : "hide";
+    //     return c.a.createElement("div", { className: "notice " + r }, c.a.createElement("div", null, "\u6ce8\uff1a\u672c\u9875\u7ed3\u679c\u4ec5\u4f9b\u53c2\u8003", c.a.createElement("span", { className: "notice__interval" }), c.a.createElement(d, { style: { marginLeft: 0 } }, "\u7ea0\u9519\u4e0e\u53cd\u9988"))) }
 
     function i(e) {
         return c.a.createElement("span", { className: "list__item_name left" }, e.children) }
