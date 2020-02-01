@@ -206,7 +206,7 @@
                         else {
                             var c = "",
                                 i = "";
-                            r.length < 11 ? c = r : i = r, q()({ url: "https://feedbackfont.safe.360.cn/feedback/addFeedback", adapter: Q.a, params: { content: t, mobile: i, qq: c, timestamp: a, sign: Object(F.sign)("hOrlB9LEzgtgZ0GjCRjv7marKf1yiFov")({ content: t, mobile: i, qq: c, timestamp: a }) } }).then(function(e) { e.data && 0 === e.data.errno && (n.setState({ showToast: !0, toastText: "\u63d0\u4ea4\u6210\u529f" }), setTimeout(function() { n.setState({ showToast: !1, toastText: "" }), o.push("/") }, 2e3)) }) } }), n }
+                            r.length < 11 ? c = r : i = r, q()({ url: "#", adapter: Q.a, params: { content: t, mobile: i, qq: c, timestamp: a, sign: Object(F.sign)("hOrlB9LEzgtgZ0GjCRjv7marKf1yiFov")({ content: t, mobile: i, qq: c, timestamp: a }) } }).then(function(e) { e.data && 0 === e.data.errno && (n.setState({ showToast: !0, toastText: "\u63d0\u4ea4\u6210\u529f" }), setTimeout(function() { n.setState({ showToast: !1, toastText: "" }), o.push("/") }, 2e3)) }) } }), n }
                 return v(t, e), b(t, [{ key: "render", value: function() {
                         var e = this.state,
                             t = e.disc,
@@ -214,7 +214,7 @@
                             r = e.toastText,
                             o = e.showToast;
                         return L.a.createElement("div", { className: "suggest-wrap" }, o ? L.a.createElement("div", { className: "toast" }, r) : "", L.a.createElement("div", { className: "disc" }, L.a.createElement("div", { className: "disc-name" }, "\u95ee\u9898\u63cf\u8ff0"), L.a.createElement("textarea", { onChange: this.handleChangeDisc, value: t, className: "disc-txt", placeholder: "\u8bf7\u5199\u4e0b\u4f60\u9047\u5230\u7684\u95ee\u9898" })), L.a.createElement("div", { className: "address" }, L.a.createElement("div", { className: "address-name" }, "\u8054\u7cfb\u65b9\u5f0f"), L.a.createElement("input", { onChange: this.handleChangeContact, value: n, className: "address-txt", placeholder: "\u8bf7\u7559\u4e0b\u4f60\u7684\u8054\u7cfb\u65b9\u5f0f\uff0c\u624b\u673a\u53f7/QQ\u53f7\u5747\u53ef" })), L.a.createElement("button", { onClick: this.handleSubmit, className: "submit" }, "\u63d0\u4ea4")) } }]), t }(L.a.Component));
-        Object(B.isMobile)() || (window.location.href = "http://www.360.cn/activity/font.html");
+        Object(B.isMobile)() || (window.location.href = "index.html");
         var G = function(e) {
             function t() {
                 return j(this, t), x(this, N(t).apply(this, arguments)) }
